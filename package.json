@@ -1,15 +1,22 @@
 {
     "name": "sugar-watcher",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Sugar监控组件",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fengshangshi/sugar-watcher.git"
+    },
     "author": "ss.feng",
     "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/fengshangshi/sugar-watcher/issues"
+    },
+    "homepage": "https://github.com/fengshangshi/sugar-watcher#readme",
     "dependencies": {
-        "graphite": "0.0.7",
-        "sugar-util": "0.0.1"
+        "graphite": "0.0.7"
     }
 }
