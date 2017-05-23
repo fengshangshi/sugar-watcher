@@ -13,7 +13,8 @@ class Watcher {
         let __callback = callback || function() {};
 
         __rate = __rate * (1000 * 60);
-        __url = 'plaintext://' + __host + ':' + __port;
+
+        let __url = 'plaintext://' + __host + ':' + __port;
 
         let __timeCache = {};
         let __metrics = this.metrics = {};
